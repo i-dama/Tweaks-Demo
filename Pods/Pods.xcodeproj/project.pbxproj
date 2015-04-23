@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F0465D2A06B8ADDA3946547 /* FBTweakCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F63EC75A993F4959C4FFA8 /* FBTweakCategory.m */; };
+		1A297F733B3E82D58F692CE1 /* FBTweakViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 556C39DA3BDFA959A14B820B /* FBTweakViewController.h */; };
+		27D3C4EDB0896BE681009E2D /* _FBTweakCategoryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CD96D825C2C0D2F184518C4 /* _FBTweakCategoryViewController.h */; };
+		29DAFFE41365546C8BDBA892 /* _FBTweakCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FAB73608DA3408A335FC248 /* _FBTweakCollectionViewController.h */; };
+		2A76457E4FDC3A7E62008D0A /* _FBTweakArrayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17844F6CD7F15357318A4167 /* _FBTweakArrayViewController.m */; };
+		2ABF525D7C7CE657C7979652 /* FBTweakInline.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE07AAB9FB365B8B3E3CE42 /* FBTweakInline.m */; };
+		32EA3D77D402571AF52E7E34 /* FBTweak.m in Sources */ = {isa = PBXBuildFile; fileRef = AF34FD3990A1245F4E153019 /* FBTweak.m */; };
+		3395C554A7A209F597B99D2B /* _FBTweakDictionaryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D18B2B773C70C83C2088F03 /* _FBTweakDictionaryViewController.h */; };
+		34C0F6FB893FAA5CA9BFF952 /* FBTweakCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EB942187502A3CDFCE04CC3 /* FBTweakCollection.h */; };
+		3F1AFE8B8A11B3B901513927 /* FBTweakEnabled.h in Headers */ = {isa = PBXBuildFile; fileRef = 5790D71B236C2B878326E4C5 /* FBTweakEnabled.h */; };
+		433291A5926E1EBB0C7B248C /* Pods-SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFED0524D16BB91C0504039 /* Pods-SVProgressHUD-dummy.m */; };
+		45FE2EA7130FACC2F1B89474 /* _FBTweakDictionaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BA6412C3FFDD9233CCA00F /* _FBTweakDictionaryViewController.m */; };
+		4A1DAA17812703C9831AF4B1 /* FBTweakInlineInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 35504A51C32B43392FE6B8C9 /* FBTweakInlineInternal.h */; };
+		4EE808E865CCF0686CA21E32 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = A217FA939767992EE4EEAA46 /* SVProgressHUD.h */; };
+		4F6F6B075271ACFB6C6857A7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA35045805B5B9F92453BC42 /* QuartzCore.framework */; };
+		5239F8BC4FA310AC67491BF5 /* _FBTweakBindObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = D09A8A8300F914BDE0C19E2D /* _FBTweakBindObserver.m */; };
+		53FA767B2A3A27DE84EF3889 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FA40C9EE385745D50128091E /* SVProgressHUD.m */; };
+		546117D94941D27D2C5B54E9 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C68CF0DA8F46C8A9E6410449 /* Pods-dummy.m */; };
+		5F118E959F6B55909808886A /* FBTweak.h in Headers */ = {isa = PBXBuildFile; fileRef = 303BB442CD9F200E427F98A0 /* FBTweak.h */; };
+		66584F0090F050E06E9D4E07 /* FBTweakCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8CF73632EEDCA4F115AABE /* FBTweakCategory.h */; };
+		66E7FC74FBDF6B36EDBE1E5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B05FF32B5BC1979D1DEF5B8E /* Foundation.framework */; };
+		6FDF4A2AEE8582669A275A0A /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC4367F2C6550F4083CECBE /* SVIndefiniteAnimatedView.m */; };
+		77A5E7E7289488C890021F07 /* FBTweakStore.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1B5B267B332992BA2E60F0 /* FBTweakStore.m */; };
+		78CD768A6DCD2CE4CCAB9250 /* _FBTweakArrayViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 90CFDBBA57E8890D15228BE4 /* _FBTweakArrayViewController.h */; };
+		89832072AD3A0F3017A36438 /* FBTweakCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5B677453D75E502BCC8DF5 /* FBTweakCollection.m */; };
+		958195941316EB7B6F43D9A9 /* _FBTweakBindObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 509B88CB587B0BC3E2D00C82 /* _FBTweakBindObserver.h */; };
+		A6B5AACCC298143B9D8D0C81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B05FF32B5BC1979D1DEF5B8E /* Foundation.framework */; };
+		B1D2AB115608CBF8D91AF2E3 /* _FBTweakCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5525DEEFDF5E23B21E101BD4 /* _FBTweakCategoryViewController.m */; };
+		B23ECDE27C1805F2CC5D7116 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B05FF32B5BC1979D1DEF5B8E /* Foundation.framework */; };
+		B70C870964C5828E342FE6AE /* _FBTweakTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F9821A7900B4EB5BEA70254D /* _FBTweakTableViewCell.h */; };
+		B72AA4596DE2DE238B1E4ECA /* FBTweakStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 496CB6CC82F84CD4381ABFF1 /* FBTweakStore.h */; };
+		BDBA07FC498AD125FE3B68FD /* _FBTweakTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1CA44F89C220343599E7DF /* _FBTweakTableViewCell.m */; };
+		CE41297A610BF0D6C64F7260 /* FBTweakInline.h in Headers */ = {isa = PBXBuildFile; fileRef = D5CA577AD13C2079AA8B10C2 /* FBTweakInline.h */; };
+		D10622FD3296CDA1E4AB8393 /* FBTweakShakeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EF46507484BDF1B0A84BDD /* FBTweakShakeWindow.m */; };
+		DF85A3BDB91A21B46EABB584 /* _FBTweakCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D45D4053ABE40D3EBA3969 /* _FBTweakCollectionViewController.m */; };
+		DFA918BCED26A29AF17A827A /* FBTweakShakeWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C254D5355501DEAC9D6B36 /* FBTweakShakeWindow.h */; };
+		EB47B47AA4FED74F7B059010 /* FBTweakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B87275F257BB6C4A0CB711E9 /* FBTweakViewController.m */; };
+		F0731B83DAED189B25786A03 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 317C38C4737CF63102A19CD5 /* SVIndefiniteAnimatedView.h */; };
+		FB17E66050A8504E4B65FDBE /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D387FED2EF1EF8163AABB56 /* MessageUI.framework */; };
+		FBF43EBB610EB981D6633D2B /* Pods-Tweaks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B078B5031A418F6CF58108D6 /* Pods-Tweaks-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21D8933DBE97532428B1AA5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D1A1D3DB3723F9C2AA0AEBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEBC0A31EC5F8F10D52DAC26;
+			remoteInfo = "Pods-SVProgressHUD";
+		};
+		EEA4571953AC1F946B62CDB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D1A1D3DB3723F9C2AA0AEBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F66EF9D00B602C2C2A2CBCC8;
+			remoteInfo = "Pods-Tweaks";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A08445E58B5B71DCADD5E7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		02D45D4053ABE40D3EBA3969 /* _FBTweakCollectionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _FBTweakCollectionViewController.m; path = FBTweak/_FBTweakCollectionViewController.m; sourceTree = "<group>"; };
+		02FC4F748D08D0F1ABAF8DD9 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		0CFED0524D16BB91C0504039 /* Pods-SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		0F5B677453D75E502BCC8DF5 /* FBTweakCollection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBTweakCollection.m; path = FBTweak/FBTweakCollection.m; sourceTree = "<group>"; };
+		17844F6CD7F15357318A4167 /* _FBTweakArrayViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _FBTweakArrayViewController.m; path = FBTweak/_FBTweakArrayViewController.m; sourceTree = "<group>"; };
+		1D387FED2EF1EF8163AABB56 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+		2CD96D825C2C0D2F184518C4 /* _FBTweakCategoryViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _FBTweakCategoryViewController.h; path = FBTweak/_FBTweakCategoryViewController.h; sourceTree = "<group>"; };
+		303BB442CD9F200E427F98A0 /* FBTweak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBTweak.h; path = FBTweak/FBTweak.h; sourceTree = "<group>"; };
+		317C38C4737CF63102A19CD5 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		35504A51C32B43392FE6B8C9 /* FBTweakInlineInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBTweakInlineInternal.h; path = FBTweak/FBTweakInlineInternal.h; sourceTree = "<group>"; };
+		496CB6CC82F84CD4381ABFF1 /* FBTweakStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBTweakStore.h; path = FBTweak/FBTweakStore.h; sourceTree = "<group>"; };
+		4AE07AAB9FB365B8B3E3CE42 /* FBTweakInline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBTweakInline.m; path = FBTweak/FBTweakInline.m; sourceTree = "<group>"; };
+		4EB942187502A3CDFCE04CC3 /* FBTweakCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBTweakCollection.h; path = FBTweak/FBTweakCollection.h; sourceTree = "<group>"; };
+		4EF431C35C0A83BC5667A15C /* Pods-Tweaks-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tweaks-Private.xcconfig"; sourceTree = "<group>"; };
+		4FAB73608DA3408A335FC248 /* _FBTweakCollectionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _FBTweakCollectionViewController.h; path = FBTweak/_FBTweakCollectionViewController.h; sourceTree = "<group>"; };
+		509B88CB587B0BC3E2D00C82 /* _FBTweakBindObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _FBTweakBindObserver.h; path = FBTweak/_FBTweakBindObserver.h; sourceTree = "<group>"; };
+		5525DEEFDF5E23B21E101BD4 /* _FBTweakCategoryViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _FBTweakCategoryViewController.m; path = FBTweak/_FBTweakCategoryViewController.m; sourceTree = "<group>"; };
+		556C39DA3BDFA959A14B820B /* FBTweakViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBTweakViewController.h; path = FBTweak/FBTweakViewController.h; sourceTree = "<group>"; };
+		5790D71B236C2B878326E4C5 /* FBTweakEnabled.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBTweakEnabled.h; path = FBTweak/FBTweakEnabled.h; sourceTree = "<group>"; };
+		59FB63C34BB7738EB4D89BB9 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		5F1CA44F89C220343599E7DF /* _FBTweakTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _FBTweakTableViewCell.m; path = FBTweak/_FBTweakTableViewCell.m; sourceTree = "<group>"; };
+		65F63EC75A993F4959C4FFA8 /* FBTweakCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBTweakCategory.m; path = FBTweak/FBTweakCategory.m; sourceTree = "<group>"; };
+		6DEC9044EAC6CFA1E8B69C9E /* Pods-Tweaks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tweaks-prefix.pch"; sourceTree = "<group>"; };
+		76D712D0D0FCD8F95EF28DEF /* Pods-SVProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SVProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
+		7745C8F7EB8F72CEE95E8E02 /* libPods-SVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SVProgressHUD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C15C542F9230FE412164A8 /* libPods-Tweaks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tweaks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90CFDBBA57E8890D15228BE4 /* _FBTweakArrayViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _FBTweakArrayViewController.h; path = FBTweak/_FBTweakArrayViewController.h; sourceTree = "<group>"; };
+		98BA6412C3FFDD9233CCA00F /* _FBTweakDictionaryViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _FBTweakDictionaryViewController.m; path = FBTweak/_FBTweakDictionaryViewController.m; sourceTree = "<group>"; };
+		9D18B2B773C70C83C2088F03 /* _FBTweakDictionaryViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _FBTweakDictionaryViewController.h; path = FBTweak/_FBTweakDictionaryViewController.h; sourceTree = "<group>"; };
+		A217FA939767992EE4EEAA46 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		A22259CEC80D8F9CB8C3518F /* Pods-SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		A312BA407F2FDFED0C57A58B /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A9EF46507484BDF1B0A84BDD /* FBTweakShakeWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBTweakShakeWindow.m; path = FBTweak/FBTweakShakeWindow.m; sourceTree = "<group>"; };
+		AF34FD3990A1245F4E153019 /* FBTweak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBTweak.m; path = FBTweak/FBTweak.m; sourceTree = "<group>"; };
+		B05FF32B5BC1979D1DEF5B8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B078B5031A418F6CF58108D6 /* Pods-Tweaks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tweaks-dummy.m"; sourceTree = "<group>"; };
+		B5C2AB7FEB11C5676D1F5706 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		B6C254D5355501DEAC9D6B36 /* FBTweakShakeWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBTweakShakeWindow.h; path = FBTweak/FBTweakShakeWindow.h; sourceTree = "<group>"; };
+		B87275F257BB6C4A0CB711E9 /* FBTweakViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBTweakViewController.m; path = FBTweak/FBTweakViewController.m; sourceTree = "<group>"; };
+		BD7031644C108F94C22DE113 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		C68CF0DA8F46C8A9E6410449 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		C7E47D8CCF4EEBD22093D8CA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		CA35045805B5B9F92453BC42 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		CB1B5B267B332992BA2E60F0 /* FBTweakStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBTweakStore.m; path = FBTweak/FBTweakStore.m; sourceTree = "<group>"; };
+		CDC4367F2C6550F4083CECBE /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		D09A8A8300F914BDE0C19E2D /* _FBTweakBindObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _FBTweakBindObserver.m; path = FBTweak/_FBTweakBindObserver.m; sourceTree = "<group>"; };
+		D5CA577AD13C2079AA8B10C2 /* FBTweakInline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBTweakInline.h; path = FBTweak/FBTweakInline.h; sourceTree = "<group>"; };
+		DA8CF73632EEDCA4F115AABE /* FBTweakCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBTweakCategory.h; path = FBTweak/FBTweakCategory.h; sourceTree = "<group>"; };
+		F977A49CF0EB908AA3DB27E4 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F9821A7900B4EB5BEA70254D /* _FBTweakTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _FBTweakTableViewCell.h; path = FBTweak/_FBTweakTableViewCell.h; sourceTree = "<group>"; };
+		FA40C9EE385745D50128091E /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		FD1A376B49F6D479E8E04352 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		FDB784CAF004608E2FACB7AC /* Pods-Tweaks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tweaks.xcconfig"; sourceTree = "<group>"; };
+		FE0608B7706D1CAE12F31ADB /* Pods-SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SVProgressHUD.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F0170A497F72C8A71B8F3F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B5AACCC298143B9D8D0C81 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CFCC8D9B479527380D5A710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E7FC74FBDF6B36EDBE1E5B /* Foundation.framework in Frameworks */,
+				FB17E66050A8504E4B65FDBE /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF18CD7C20ED56EBBCBED270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23ECDE27C1805F2CC5D7116 /* Foundation.framework in Frameworks */,
+				4F6F6B075271ACFB6C6857A7 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10B062D315EF44FD8327CDA5 = {
+			isa = PBXGroup;
+			children = (
+				F977A49CF0EB908AA3DB27E4 /* Podfile */,
+				6990583715A610D1DCF92F29 /* Frameworks */,
+				330966EC874430FDFDA1D262 /* Pods */,
+				4935F8C3155BC6505327CD9D /* Products */,
+				9979544DF51FAEFAD3E29B3E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		22A8C4B99823B199434423DD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDB784CAF004608E2FACB7AC /* Pods-Tweaks.xcconfig */,
+				4EF431C35C0A83BC5667A15C /* Pods-Tweaks-Private.xcconfig */,
+				B078B5031A418F6CF58108D6 /* Pods-Tweaks-dummy.m */,
+				6DEC9044EAC6CFA1E8B69C9E /* Pods-Tweaks-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Tweaks";
+			sourceTree = "<group>";
+		};
+		267B4A27C55FF4BDA4EF4A24 /* Tweaks */ = {
+			isa = PBXGroup;
+			children = (
+				303BB442CD9F200E427F98A0 /* FBTweak.h */,
+				AF34FD3990A1245F4E153019 /* FBTweak.m */,
+				DA8CF73632EEDCA4F115AABE /* FBTweakCategory.h */,
+				65F63EC75A993F4959C4FFA8 /* FBTweakCategory.m */,
+				4EB942187502A3CDFCE04CC3 /* FBTweakCollection.h */,
+				0F5B677453D75E502BCC8DF5 /* FBTweakCollection.m */,
+				5790D71B236C2B878326E4C5 /* FBTweakEnabled.h */,
+				D5CA577AD13C2079AA8B10C2 /* FBTweakInline.h */,
+				4AE07AAB9FB365B8B3E3CE42 /* FBTweakInline.m */,
+				35504A51C32B43392FE6B8C9 /* FBTweakInlineInternal.h */,
+				B6C254D5355501DEAC9D6B36 /* FBTweakShakeWindow.h */,
+				A9EF46507484BDF1B0A84BDD /* FBTweakShakeWindow.m */,
+				496CB6CC82F84CD4381ABFF1 /* FBTweakStore.h */,
+				CB1B5B267B332992BA2E60F0 /* FBTweakStore.m */,
+				556C39DA3BDFA959A14B820B /* FBTweakViewController.h */,
+				B87275F257BB6C4A0CB711E9 /* FBTweakViewController.m */,
+				90CFDBBA57E8890D15228BE4 /* _FBTweakArrayViewController.h */,
+				17844F6CD7F15357318A4167 /* _FBTweakArrayViewController.m */,
+				509B88CB587B0BC3E2D00C82 /* _FBTweakBindObserver.h */,
+				D09A8A8300F914BDE0C19E2D /* _FBTweakBindObserver.m */,
+				2CD96D825C2C0D2F184518C4 /* _FBTweakCategoryViewController.h */,
+				5525DEEFDF5E23B21E101BD4 /* _FBTweakCategoryViewController.m */,
+				4FAB73608DA3408A335FC248 /* _FBTweakCollectionViewController.h */,
+				02D45D4053ABE40D3EBA3969 /* _FBTweakCollectionViewController.m */,
+				9D18B2B773C70C83C2088F03 /* _FBTweakDictionaryViewController.h */,
+				98BA6412C3FFDD9233CCA00F /* _FBTweakDictionaryViewController.m */,
+				F9821A7900B4EB5BEA70254D /* _FBTweakTableViewCell.h */,
+				5F1CA44F89C220343599E7DF /* _FBTweakTableViewCell.m */,
+				22A8C4B99823B199434423DD /* Support Files */,
+			);
+			path = Tweaks;
+			sourceTree = "<group>";
+		};
+		330966EC874430FDFDA1D262 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB78F22FA2C80A70C009E39A /* SVProgressHUD */,
+				267B4A27C55FF4BDA4EF4A24 /* Tweaks */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3CAD584B1E39EE5C80F0D9BB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE0608B7706D1CAE12F31ADB /* Pods-SVProgressHUD.xcconfig */,
+				76D712D0D0FCD8F95EF28DEF /* Pods-SVProgressHUD-Private.xcconfig */,
+				0CFED0524D16BB91C0504039 /* Pods-SVProgressHUD-dummy.m */,
+				A22259CEC80D8F9CB8C3518F /* Pods-SVProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		4935F8C3155BC6505327CD9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02A08445E58B5B71DCADD5E7 /* libPods.a */,
+				7745C8F7EB8F72CEE95E8E02 /* libPods-SVProgressHUD.a */,
+				84C15C542F9230FE412164A8 /* libPods-Tweaks.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6990583715A610D1DCF92F29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D24036FA89A88F9864A32B57 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9979544DF51FAEFAD3E29B3E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBC5E3F40EF1DBC3B5B154D6 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BBC5E3F40EF1DBC3B5B154D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A312BA407F2FDFED0C57A58B /* Pods-acknowledgements.markdown */,
+				B5C2AB7FEB11C5676D1F5706 /* Pods-acknowledgements.plist */,
+				C68CF0DA8F46C8A9E6410449 /* Pods-dummy.m */,
+				BD7031644C108F94C22DE113 /* Pods-environment.h */,
+				59FB63C34BB7738EB4D89BB9 /* Pods-resources.sh */,
+				C7E47D8CCF4EEBD22093D8CA /* Pods.debug.xcconfig */,
+				FD1A376B49F6D479E8E04352 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		D24036FA89A88F9864A32B57 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B05FF32B5BC1979D1DEF5B8E /* Foundation.framework */,
+				1D387FED2EF1EF8163AABB56 /* MessageUI.framework */,
+				CA35045805B5B9F92453BC42 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DA6B43DD881F24F58E1591CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				02FC4F748D08D0F1ABAF8DD9 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FB78F22FA2C80A70C009E39A /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				317C38C4737CF63102A19CD5 /* SVIndefiniteAnimatedView.h */,
+				CDC4367F2C6550F4083CECBE /* SVIndefiniteAnimatedView.m */,
+				A217FA939767992EE4EEAA46 /* SVProgressHUD.h */,
+				FA40C9EE385745D50128091E /* SVProgressHUD.m */,
+				DA6B43DD881F24F58E1591CE /* Resources */,
+				3CAD584B1E39EE5C80F0D9BB /* Support Files */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4CD15139FB14186DE076BF5D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F118E959F6B55909808886A /* FBTweak.h in Headers */,
+				66584F0090F050E06E9D4E07 /* FBTweakCategory.h in Headers */,
+				34C0F6FB893FAA5CA9BFF952 /* FBTweakCollection.h in Headers */,
+				3F1AFE8B8A11B3B901513927 /* FBTweakEnabled.h in Headers */,
+				CE41297A610BF0D6C64F7260 /* FBTweakInline.h in Headers */,
+				4A1DAA17812703C9831AF4B1 /* FBTweakInlineInternal.h in Headers */,
+				DFA918BCED26A29AF17A827A /* FBTweakShakeWindow.h in Headers */,
+				B72AA4596DE2DE238B1E4ECA /* FBTweakStore.h in Headers */,
+				1A297F733B3E82D58F692CE1 /* FBTweakViewController.h in Headers */,
+				78CD768A6DCD2CE4CCAB9250 /* _FBTweakArrayViewController.h in Headers */,
+				958195941316EB7B6F43D9A9 /* _FBTweakBindObserver.h in Headers */,
+				27D3C4EDB0896BE681009E2D /* _FBTweakCategoryViewController.h in Headers */,
+				29DAFFE41365546C8BDBA892 /* _FBTweakCollectionViewController.h in Headers */,
+				3395C554A7A209F597B99D2B /* _FBTweakDictionaryViewController.h in Headers */,
+				B70C870964C5828E342FE6AE /* _FBTweakTableViewCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6602509CA5E655D1FD9021DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0731B83DAED189B25786A03 /* SVIndefiniteAnimatedView.h in Headers */,
+				4EE808E865CCF0686CA21E32 /* SVProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		274827F109C570D8D79273E0 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02C25CD4E85BF15F57FFB45D /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				47D92CA91A64A010D2197706 /* Sources */,
+				3F0170A497F72C8A71B8F3F7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6504CC2BA58F0AAE44359AA3 /* PBXTargetDependency */,
+				DB3ADC02A428009735B2AA26 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 02A08445E58B5B71DCADD5E7 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AEBC0A31EC5F8F10D52DAC26 /* Pods-SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2366604D5ED1C15B8E5D846C /* Build configuration list for PBXNativeTarget "Pods-SVProgressHUD" */;
+			buildPhases = (
+				0602FB020588190B63CF6D1A /* Sources */,
+				BF18CD7C20ED56EBBCBED270 /* Frameworks */,
+				6602509CA5E655D1FD9021DA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SVProgressHUD";
+			productName = "Pods-SVProgressHUD";
+			productReference = 7745C8F7EB8F72CEE95E8E02 /* libPods-SVProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F66EF9D00B602C2C2A2CBCC8 /* Pods-Tweaks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65A2EA2460ADD58BF8D7F92A /* Build configuration list for PBXNativeTarget "Pods-Tweaks" */;
+			buildPhases = (
+				8209E98E9FA11B786F14357C /* Sources */,
+				9CFCC8D9B479527380D5A710 /* Frameworks */,
+				4CD15139FB14186DE076BF5D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tweaks";
+			productName = "Pods-Tweaks";
+			productReference = 84C15C542F9230FE412164A8 /* libPods-Tweaks.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D1A1D3DB3723F9C2AA0AEBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = CDCA749AB0886150C8DCB638 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 10B062D315EF44FD8327CDA5;
+			productRefGroup = 4935F8C3155BC6505327CD9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				274827F109C570D8D79273E0 /* Pods */,
+				AEBC0A31EC5F8F10D52DAC26 /* Pods-SVProgressHUD */,
+				F66EF9D00B602C2C2A2CBCC8 /* Pods-Tweaks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0602FB020588190B63CF6D1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433291A5926E1EBB0C7B248C /* Pods-SVProgressHUD-dummy.m in Sources */,
+				6FDF4A2AEE8582669A275A0A /* SVIndefiniteAnimatedView.m in Sources */,
+				53FA767B2A3A27DE84EF3889 /* SVProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D92CA91A64A010D2197706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546117D94941D27D2C5B54E9 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8209E98E9FA11B786F14357C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32EA3D77D402571AF52E7E34 /* FBTweak.m in Sources */,
+				0F0465D2A06B8ADDA3946547 /* FBTweakCategory.m in Sources */,
+				89832072AD3A0F3017A36438 /* FBTweakCollection.m in Sources */,
+				2ABF525D7C7CE657C7979652 /* FBTweakInline.m in Sources */,
+				D10622FD3296CDA1E4AB8393 /* FBTweakShakeWindow.m in Sources */,
+				77A5E7E7289488C890021F07 /* FBTweakStore.m in Sources */,
+				EB47B47AA4FED74F7B059010 /* FBTweakViewController.m in Sources */,
+				FBF43EBB610EB981D6633D2B /* Pods-Tweaks-dummy.m in Sources */,
+				2A76457E4FDC3A7E62008D0A /* _FBTweakArrayViewController.m in Sources */,
+				5239F8BC4FA310AC67491BF5 /* _FBTweakBindObserver.m in Sources */,
+				B1D2AB115608CBF8D91AF2E3 /* _FBTweakCategoryViewController.m in Sources */,
+				DF85A3BDB91A21B46EABB584 /* _FBTweakCollectionViewController.m in Sources */,
+				45FE2EA7130FACC2F1B89474 /* _FBTweakDictionaryViewController.m in Sources */,
+				BDBA07FC498AD125FE3B68FD /* _FBTweakTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6504CC2BA58F0AAE44359AA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SVProgressHUD";
+			target = AEBC0A31EC5F8F10D52DAC26 /* Pods-SVProgressHUD */;
+			targetProxy = 21D8933DBE97532428B1AA5E /* PBXContainerItemProxy */;
+		};
+		DB3ADC02A428009735B2AA26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tweaks";
+			target = F66EF9D00B602C2C2A2CBCC8 /* Pods-Tweaks */;
+			targetProxy = EEA4571953AC1F946B62CDB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E6F2F1778F1469EE370F2F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EF431C35C0A83BC5667A15C /* Pods-Tweaks-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tweaks/Pods-Tweaks-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4CECD3F8B0678DEE4D662CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76D712D0D0FCD8F95EF28DEF /* Pods-SVProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SVProgressHUD/Pods-SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6EDC7DCE2A81BBFDB3945095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EF431C35C0A83BC5667A15C /* Pods-Tweaks-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tweaks/Pods-Tweaks-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C536681634135D9FC85F9993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7E47D8CCF4EEBD22093D8CA /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D755D6B13AE0E1A9509B09CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD1A376B49F6D479E8E04352 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D86D5DEB5F78D42E3EE5F6A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76D712D0D0FCD8F95EF28DEF /* Pods-SVProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SVProgressHUD/Pods-SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E1AEAD572CF6C16EAFB4B2C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F3B07B2B2BBC4D738E2FC13A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02C25CD4E85BF15F57FFB45D /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C536681634135D9FC85F9993 /* Debug */,
+				D755D6B13AE0E1A9509B09CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2366604D5ED1C15B8E5D846C /* Build configuration list for PBXNativeTarget "Pods-SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CECD3F8B0678DEE4D662CCA /* Debug */,
+				D86D5DEB5F78D42E3EE5F6A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65A2EA2460ADD58BF8D7F92A /* Build configuration list for PBXNativeTarget "Pods-Tweaks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6F2F1778F1469EE370F2F3 /* Debug */,
+				6EDC7DCE2A81BBFDB3945095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDCA749AB0886150C8DCB638 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1AEAD572CF6C16EAFB4B2C6 /* Debug */,
+				F3B07B2B2BBC4D738E2FC13A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D1A1D3DB3723F9C2AA0AEBA /* Project object */;
+}

@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <Tweaks/FBTweakShakeWindow.h>
+#import <SVProgressHUD/SVProgressHUD.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +19,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[FBTweakShakeWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIViewController *initialViewController = [mainStoryboard instantiateInitialViewController];
+    
+    self.window.rootViewController = initialViewController;
+    
+    [self.window makeKeyAndVisible];
+    
+    [SVProgressHUD setBackgroundColor:[UIColor colorWithRed:215./255 green:215./255 blue:215./255 alpha:1.0]];
+    [SVProgressHUD setForegroundColor:[UIColor darkGrayColor]];
+    
     return YES;
 }
 

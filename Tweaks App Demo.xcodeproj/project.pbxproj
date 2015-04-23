@@ -9,37 +9,37 @@
 /* Begin PBXBuildFile section */
 		42DCC7BA1AE9027900310FB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DCC7B91AE9027900310FB0 /* main.m */; };
 		42DCC7BD1AE9027900310FB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DCC7BC1AE9027900310FB0 /* AppDelegate.m */; };
-		42DCC7C01AE9027900310FB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DCC7BF1AE9027900310FB0 /* ViewController.m */; };
 		42DCC7C31AE9027A00310FB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42DCC7C11AE9027A00310FB0 /* Main.storyboard */; };
 		42DCC7C51AE9027A00310FB0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42DCC7C41AE9027A00310FB0 /* Images.xcassets */; };
 		42DCC7C81AE9027A00310FB0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42DCC7C61AE9027A00310FB0 /* LaunchScreen.xib */; };
-		42DCC7D41AE9027A00310FB0 /* Tweaks_App_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DCC7D31AE9027A00310FB0 /* Tweaks_App_DemoTests.m */; };
+		42DCC7E61AE9044200310FB0 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DCC7E51AE9044200310FB0 /* LoginViewController.m */; };
+		42DCC7EA1AE904FA00310FB0 /* LoginPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DCC7E91AE904FA00310FB0 /* LoginPresenter.m */; };
+		42DCC7EE1AE9060500310FB0 /* TweakableLoginInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DCC7ED1AE9060500310FB0 /* TweakableLoginInteractor.m */; };
+		DDC4036294C3B776C6D411EC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B21802E9BD306026E7ABF704 /* libPods.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		42DCC7CE1AE9027A00310FB0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 42DCC7AC1AE9027900310FB0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 42DCC7B31AE9027900310FB0;
-			remoteInfo = "Tweaks App Demo";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		3135AC338D530427F05C7FD2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		42DCC7B41AE9027900310FB0 /* Tweaks App Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tweaks App Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42DCC7B81AE9027900310FB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42DCC7B91AE9027900310FB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		42DCC7BB1AE9027900310FB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		42DCC7BC1AE9027900310FB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		42DCC7BE1AE9027900310FB0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		42DCC7BF1AE9027900310FB0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		42DCC7C21AE9027A00310FB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42DCC7C41AE9027A00310FB0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		42DCC7C71AE9027A00310FB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		42DCC7CD1AE9027A00310FB0 /* Tweaks App DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tweaks App DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42DCC7D21AE9027A00310FB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42DCC7D31AE9027A00310FB0 /* Tweaks_App_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tweaks_App_DemoTests.m; sourceTree = "<group>"; };
+		42DCC7E21AE9037400310FB0 /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		42DCC7E31AE903EB00310FB0 /* LoginInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginInteractor.h; sourceTree = "<group>"; };
+		42DCC7E41AE9044200310FB0 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		42DCC7E51AE9044200310FB0 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		42DCC7E81AE904FA00310FB0 /* LoginPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginPresenter.h; sourceTree = "<group>"; };
+		42DCC7E91AE904FA00310FB0 /* LoginPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginPresenter.m; sourceTree = "<group>"; };
+		42DCC7EC1AE9060500310FB0 /* TweakableLoginInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweakableLoginInteractor.h; sourceTree = "<group>"; };
+		42DCC7ED1AE9060500310FB0 /* TweakableLoginInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweakableLoginInteractor.m; sourceTree = "<group>"; };
+		71841E1761972126671AC4E8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B21802E9BD306026E7ABF704 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,25 +47,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42DCC7CA1AE9027A00310FB0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				DDC4036294C3B776C6D411EC /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21F90C6773B1FB4A0B2CEA9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71841E1761972126671AC4E8 /* Pods.debug.xcconfig */,
+				3135AC338D530427F05C7FD2 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		42DCC7AB1AE9027900310FB0 = {
 			isa = PBXGroup;
 			children = (
 				42DCC7B61AE9027900310FB0 /* Tweaks App Demo */,
 				42DCC7D01AE9027A00310FB0 /* Tweaks App DemoTests */,
 				42DCC7B51AE9027900310FB0 /* Products */,
+				21F90C6773B1FB4A0B2CEA9F /* Pods */,
+				8C00BDD40008196562B0655E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,7 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				42DCC7B41AE9027900310FB0 /* Tweaks App Demo.app */,
-				42DCC7CD1AE9027A00310FB0 /* Tweaks App DemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,10 +85,9 @@
 		42DCC7B61AE9027900310FB0 /* Tweaks App Demo */ = {
 			isa = PBXGroup;
 			children = (
+				42DCC7DD1AE9036100310FB0 /* Modules */,
 				42DCC7BB1AE9027900310FB0 /* AppDelegate.h */,
 				42DCC7BC1AE9027900310FB0 /* AppDelegate.m */,
-				42DCC7BE1AE9027900310FB0 /* ViewController.h */,
-				42DCC7BF1AE9027900310FB0 /* ViewController.m */,
 				42DCC7C11AE9027A00310FB0 /* Main.storyboard */,
 				42DCC7C41AE9027A00310FB0 /* Images.xcassets */,
 				42DCC7C61AE9027A00310FB0 /* LaunchScreen.xib */,
@@ -119,6 +122,61 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		42DCC7DD1AE9036100310FB0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				42DCC7DE1AE9036100310FB0 /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		42DCC7DE1AE9036100310FB0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				42DCC7DF1AE9036100310FB0 /* Interactor */,
+				42DCC7E01AE9036100310FB0 /* Presenter */,
+				42DCC7E11AE9036100310FB0 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		42DCC7DF1AE9036100310FB0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				42DCC7E31AE903EB00310FB0 /* LoginInteractor.h */,
+				42DCC7EC1AE9060500310FB0 /* TweakableLoginInteractor.h */,
+				42DCC7ED1AE9060500310FB0 /* TweakableLoginInteractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		42DCC7E01AE9036100310FB0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				42DCC7E81AE904FA00310FB0 /* LoginPresenter.h */,
+				42DCC7E91AE904FA00310FB0 /* LoginPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		42DCC7E11AE9036100310FB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				42DCC7E21AE9037400310FB0 /* LoginView.h */,
+				42DCC7E41AE9044200310FB0 /* LoginViewController.h */,
+				42DCC7E51AE9044200310FB0 /* LoginViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8C00BDD40008196562B0655E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B21802E9BD306026E7ABF704 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42DCC7D71AE9027A00310FB0 /* Build configuration list for PBXNativeTarget "Tweaks App Demo" */;
 			buildPhases = (
+				A79C8A0CA17916336747EEB8 /* Check Pods Manifest.lock */,
 				42DCC7B01AE9027900310FB0 /* Sources */,
 				42DCC7B11AE9027900310FB0 /* Frameworks */,
 				42DCC7B21AE9027900310FB0 /* Resources */,
+				621EFEBA5358FF57E1BBE6F5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,24 +198,6 @@
 			productName = "Tweaks App Demo";
 			productReference = 42DCC7B41AE9027900310FB0 /* Tweaks App Demo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		42DCC7CC1AE9027A00310FB0 /* Tweaks App DemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 42DCC7DA1AE9027A00310FB0 /* Build configuration list for PBXNativeTarget "Tweaks App DemoTests" */;
-			buildPhases = (
-				42DCC7C91AE9027A00310FB0 /* Sources */,
-				42DCC7CA1AE9027A00310FB0 /* Frameworks */,
-				42DCC7CB1AE9027A00310FB0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				42DCC7CF1AE9027A00310FB0 /* PBXTargetDependency */,
-			);
-			name = "Tweaks App DemoTests";
-			productName = "Tweaks App DemoTests";
-			productReference = 42DCC7CD1AE9027A00310FB0 /* Tweaks App DemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -168,10 +210,6 @@
 				TargetAttributes = {
 					42DCC7B31AE9027900310FB0 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					42DCC7CC1AE9027A00310FB0 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 42DCC7B31AE9027900310FB0;
 					};
 				};
 			};
@@ -189,7 +227,6 @@
 			projectRoot = "";
 			targets = (
 				42DCC7B31AE9027900310FB0 /* Tweaks App Demo */,
-				42DCC7CC1AE9027A00310FB0 /* Tweaks App DemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -205,43 +242,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42DCC7CB1AE9027A00310FB0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		621EFEBA5358FF57E1BBE6F5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		A79C8A0CA17916336747EEB8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		42DCC7B01AE9027900310FB0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42DCC7C01AE9027900310FB0 /* ViewController.m in Sources */,
+				42DCC7EA1AE904FA00310FB0 /* LoginPresenter.m in Sources */,
+				42DCC7EE1AE9060500310FB0 /* TweakableLoginInteractor.m in Sources */,
 				42DCC7BD1AE9027900310FB0 /* AppDelegate.m in Sources */,
 				42DCC7BA1AE9027900310FB0 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42DCC7C91AE9027A00310FB0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				42DCC7D41AE9027A00310FB0 /* Tweaks_App_DemoTests.m in Sources */,
+				42DCC7E61AE9044200310FB0 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		42DCC7CF1AE9027A00310FB0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 42DCC7B31AE9027900310FB0 /* Tweaks App Demo */;
-			targetProxy = 42DCC7CE1AE9027A00310FB0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		42DCC7C11AE9027A00310FB0 /* Main.storyboard */ = {
@@ -341,6 +390,7 @@
 		};
 		42DCC7D81AE9027A00310FB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71841E1761972126671AC4E8 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Tweaks App Demo/Info.plist";
@@ -351,45 +401,12 @@
 		};
 		42DCC7D91AE9027A00310FB0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3135AC338D530427F05C7FD2 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Tweaks App Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		42DCC7DB1AE9027A00310FB0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Tweaks App DemoTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tweaks App Demo.app/Tweaks App Demo";
-			};
-			name = Debug;
-		};
-		42DCC7DC1AE9027A00310FB0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Tweaks App DemoTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tweaks App Demo.app/Tweaks App Demo";
 			};
 			name = Release;
 		};
@@ -412,14 +429,7 @@
 				42DCC7D91AE9027A00310FB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		42DCC7DA1AE9027A00310FB0 /* Build configuration list for PBXNativeTarget "Tweaks App DemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				42DCC7DB1AE9027A00310FB0 /* Debug */,
-				42DCC7DC1AE9027A00310FB0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
